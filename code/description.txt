@@ -1,0 +1,77 @@
+//en ver
+Purpose:
+* Streaming videos to help children read books
+* Create a bird-like reading feeling
+* Joy from bird movements
+
+Board to Use : esp32
+* To use the video streaming feature
+
+Product structure :
+*Streaming videos through the ESP-EYE board (using WIFI)
+-- Parents can see their child through the Web
+* Expresses the movement of a bird's head through a submotor.
+* LED indicates bird's eye
+* Cuckoo clock representation through DC motor
+* Human detection using rip sensor and ultrasonic sensor
+
+Product Behavior :
+Rip sensor human detection -> response through new movement -> human presence detection using ultrasonic sensors -> response through new movement -> video shooting
+
+Future-oriented:
+Produce app -> Watch video and push alarm
+
+Note :
+Focus on the bird (not yet considering an apology)
+- Not yet aware of the overall appearance of the tree
+-- I haven't decided what to do with the tree yet.
+Gesture sensor cannot check child behavior
+- The way to judge reading an analog book is judged to be by direct reading.
+Eliminate the feeling of being watched:
+- Keep the shooting a secret.
+- Hide it naturally like an observation camera on a TV program.
+
+------------------------------------------------------------------
+Purchase of I-Caps-related goods is judged to be correct after the accurate announcement.
+- No notice due to current corona
+- I think it's right to postpone the use of money.
+
+//
+
+//kor ver
+목적 :
+* 동영상 스트리밍을 통한 아이의 책읽기 확인 지원
+* 새와 같이 읽는 느낌 형성
+* 새의 동작에서 오는 즐거움
+
+사용할보드 : esp32
+* 동영상 스트리밍 기능 사용하기 위해
+
+제품 fuction :
+*ESP-EYE 보드를 통한 동영상 스트리밍 (WIFI 사용)
+-- Web을 통해서 부모님이 아이의 모습 확인 가능
+* 서브모터를 통해 새의 머리의 움직임 표현
+* LED를 통해 새의 눈 표현
+* DC모터를 통해 뻐꾸기 시계 표현
+* rip 센서와 초음파 센서를 이용한 사람 감지
+
+제품 동작 :
+rip 센서 사람 감지 -> 새 움직임을 통한 반응 -> 초음파 센서를 이용한 사람 존재 감지 -> 새 움직임을 통한 반응 -> 동영상 촬영
+
+미래지향 :
+app 제작 -> 동영상 시청 및 푸쉬 알람
+
+note :
+초점을 새에 집중함 (사과는 아직 고려하지 않음)
+-  전반적인 나무의 모습을 아직 인지하지 못함
+-- 나무를 어떻게 해야할지 아직 정하지 못함
+제스처 센서로 아이의 동작을 확인이 불가능
+- 아날로그 책을 읽는 것을 판단하는 방법은 직접 보는 것으로 판단됨
+감시받는 느낌 제거 :
+- 촬영을 비밀로 한다.
+- TV프로그램의 관찰 카메라 처럼 자연스럽게 숨긴다.
+
+------------------------------------------------------------------
+I-Caps관련 물품 구매는 정확한 공지 후로 하는 것이 옮바르다 판단됨
+- 현재 코로나로 인해 어떠한 공지가 없음
+- 돈 사용은 미루는게 맞다고 생각함
